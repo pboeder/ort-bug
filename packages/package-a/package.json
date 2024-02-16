@@ -1,7 +1,7 @@
 {
     "name": "@buggy/package-a",
     "dependencies": {
-        "react": "18.2.0",
-        "@buggy/package-b": "workspace:packages/package-b"
+        "@buggy/package-b": "workspace:packages/package-b",
+        "react": "18.2.0"
     }
 }
