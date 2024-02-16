@@ -16,6 +16,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@buggy/package-a@workspace:packages/package-a"
   dependencies:
+    "@buggy/package-b": "workspace:packages/package-b"
     react: "npm:18.2.0"
   languageName: unknown
   linkType: soft
