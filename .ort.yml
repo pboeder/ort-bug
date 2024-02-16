@@ -2,10 +2,6 @@ analyzer:
   skip_excluded: true
 
 excludes:
-  paths:
-    - pattern: 'packages/package-b/**'
-      reason: 'OPTIONAL_COMPONENT_OF'
-      comment: 'Backend logic is excluded.'
   scopes:
     - pattern: 'devDependencies'
       reason: 'DEV_DEPENDENCY_OF'
