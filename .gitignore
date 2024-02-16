@@ -1,0 +1,38 @@
+# IDE
+.idea
+.vscode
+
+# tests
+coverage/
+
+# NPM
+node_modules
+
+# Dist folders
+dist
+out
+build
+
+# Removed yarn locks as long as we dont have a prod envoironment
+# yarn.lock
+
+# yarn without zero installs
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Config
+config*.json
+.env*
+
+# Misc
+cdk.out
+out.json
+.vercel
+.docker
+.structurizr
+.DS_Store

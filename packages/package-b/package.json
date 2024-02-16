@@ -1,0 +1,6 @@
+{
+    "name": "@buggy/package-b",
+    "dependencies": {
+        "aws-sdk": "2.1559.0"
+    }
+}

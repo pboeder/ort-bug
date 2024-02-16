@@ -1,0 +1,6 @@
+{
+    "name": "@buggy/package-a",
+    "dependencies": {
+        "react": "18.2.0"
+    }
+}
